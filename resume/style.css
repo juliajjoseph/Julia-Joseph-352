@@ -23,12 +23,15 @@ strong {
   font-weight: 400;
 }
 
-h2 {
+.sectionHeader {
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: #ffffff;
   font-weight: 400;
+  margin: 20px 0 10px 0;
+  width: 70%;
+  min-width: 300px;
 }
 
 h3 {
