@@ -5,6 +5,13 @@ BODY {
   font-weight: 400;
 }
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
 .name {
   color: #33485e;
   border-bottom: solid 1px;
@@ -16,11 +23,21 @@ BODY {
   text-align: center;
 }
 
-strong {
+.title {
   color: #33485e;
   text-transform: uppercase;
   font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.menu {
+  font-size: 1em;
   font-weight: 400;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
 .sectionHeader {
@@ -34,23 +51,31 @@ strong {
   min-width: 300px;
 }
 
-h3 {
+.jobTitle {
   font-size: 1.5em;
   font-weight: 600;
 }
 
-h4 {
-  font-size: 1.5em;
+.organization {
+  font-size: 1.25em;
   font-weight: 400;
 }
 
-h5 {
+.date {
   font-size: 1em;
   font-weight: 400;
   font-style: italic;
+  margin: 2px 0 0 0;
 }
 
-ul {
-  font-size: 1em;
-  font-weight: 400;
+.description {
+  margin: 10 0 10 0;
+}
+
+.degrees {
+  margin-top: 5px;
+}
+
+.degrees {
+  margin-top: 5px;
 }
