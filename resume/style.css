@@ -1,49 +1,53 @@
 /**styles for my resume**/
-
-BODY{
+BODY {
   font-family: 'Open Sans', Arial, sans-serif;
-color: #444;
-font-weight:400;
+  color: #444;
+  font-weight: 400;
 }
 
-h1 {
+.name {
   color: #33485e;
-  text-transform:uppercase;
-  text-align:center;
+  border-bottom: solid 1px;
+  border-color: #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
   font-size: 3em;
+  text-align: center;
 }
 
 strong {
-  color:#33485e;
+  color: #33485e;
   text-transform: uppercase;
   font-size: 1.5em;
   font-weight: 400;
 }
 
-h2{
+h2 {
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
-  color:#ffffff;
-  font-weight:400;
-}
-h3{
-  font-size: 1.5em;
-  font-weight:600;
+  color: #ffffff;
+  font-weight: 400;
 }
 
-h4{
+h3 {
   font-size: 1.5em;
-  font-weight:400;
+  font-weight: 600;
 }
 
-h5{
+h4 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+h5 {
   font-size: 1em;
-  font-weight:400;
+  font-weight: 400;
   font-style: italic;
 }
 
-ul{
+ul {
   font-size: 1em;
   font-weight: 400;
 }
