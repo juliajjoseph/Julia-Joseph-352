@@ -4,6 +4,7 @@ BODY {
   font-weight: 400;
 }
 
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -29,14 +30,7 @@ BODY {
   margin-right: auto;
   width: 25%;
 }
-.menu {
-  font-size: 1em;
-  font-weight: 400;
-  font-family: 'Bicyclette Light';
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
+
 .title {
   color: #3B270B;
   text-transform: uppercase;
@@ -47,8 +41,15 @@ BODY {
   margin-top: 20px;
 }
 
-.sectionHeaderLeft {
-  grid-column: 1/2;
+.menu {
+  font-size: 1em;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.sectionHeader {
   font-size: 1.3em;
   text-transform: uppercase;
   background-color: #fffff;
@@ -57,7 +58,7 @@ BODY {
   font-weight: 200;
   margin: 30px 0 10px 0;
   width: 10%;
-  min-width: 200px;
+  min-width: 0px;
 }
 
 .lefttext {
@@ -79,7 +80,7 @@ BODY {
   font-family: 'Bicyclette Light';
   font-weight: 400;
   margin: 3px 0 10px 0;
-  width: 47%;
+  width: 90%;
 }
 
 .description {
