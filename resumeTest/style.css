@@ -11,11 +11,6 @@ BODY {
   padding-bottom: 50px;
 }
 
-.gridContainer {
-  display: grid;
-  grid-template-columns: 800px 800px;
-}
-
 .name {
   color: #3B270B;
   border-bottom: solid 1.5px;
@@ -53,8 +48,7 @@ BODY {
   text-align: center;
 }
 
-.sectionHeaderLeft {
-  grid-column: 1/2;
+.sectionHeader {
   font-size: 1.3em;
   text-transform: uppercase;
   background-color: #fffff;
@@ -67,7 +61,6 @@ BODY {
 }
 
 .lefttext {
-  grid-column: 1/2;
   font-size: 0.9em;
   background-color: #822C1E;
   color: #FFFAF7;
@@ -77,24 +70,8 @@ BODY {
   width: 25%;
 }
 
-.sectionHeaderRight {
-  grid-row: 2/3;
-  grid-column: 2/2;
-  font-size: 1.3em;
-  text-transform: uppercase;
-  background-color: #fffff;
-  color: #3B270B;
-  font-family: 'Bicyclette Regular';
-  font-weight: 200;
-  margin: 30px 0 10px 0;
-  width: 10%;
-  min-width: 200px;
-}
-
 /**skills text is putext**/
 .righttext {
-  grid-row: 3/3;
-  grid-column: 2/3;
   font-size: 0.9em;
   background-color: #822C1E;
   color: #FFFAF7;
