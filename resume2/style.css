@@ -1,5 +1,4 @@
 /**styles for my resume**/
-
 BODY {
  font-family: 'Open Sans', Arial, sans-serif;
  color: #444;
@@ -14,21 +13,29 @@ BODY {
 }
 
 .name {
- color: #33485e;
- border-bottom: solid 1px;
+ color: #3B270B;
+ border-bottom: solid 1.5px;
  border-color: #33485e;
- width: 60%;
+ width: 100%;
  min-width: 300px;
  margin: 0 auto;
+ font-family: 'Bicyclette Light';
  font-size: 3em;
  text-align: center;
+}
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
 
 .title {
- color: #33485e;
+ color: #3B270B;
  text-transform: uppercase;
  font-size: 1.5em;
+ font-family: 'Bicyclette Regular';
  font-weight: 600;
  text-align: center;
  margin-top: 20px;
@@ -43,40 +50,79 @@ BODY {
  text-align: center;
 }
 
-.sectionHeader {
+.sectionHeaderEd {
 
- font-size: 1.5em;
+ font-size: 1.3em;
  text-transform: uppercase;
- background-color: #33485e;
- color: #ffffff;
+ background-color: #fffff;
+ color: #3B270B;
+ font-family: 'Bicyclette Regular';
+ font-weight: 200;
+ margin: 30px 0 10px 0;
+ width: 10%;
+ min-width: 200px;
+
+}
+.edtext {
+ font-size: 0.9em;
+ background-color: #822C1E;
+ color: #FFFAF7;
+ font-family: 'Bicyclette Light';
  font-weight: 400;
- margin: 20px 0 10px 0;
- width: 70%;
- min-width: 300px;
+ margin: 3px 0 10px 0;
+ width: 25%;
 
 }
 
+.sectionHeaderAw {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  background-color: #fffff;
+  color: #3B270B;
+  font-family: 'Bicyclette Regular';
+  font-weight: 200;
+  margin: 30px 0 10px 0;
+  width: 10%;
+  min-width: 200px;
 
-.jobTitle {
- font-size: 1.5em;
- font-weight: 600;
+}
+
+.awtext {
+  font-size: 0.7em;
+  background-color: #822C1E;
+  color: #FFFAF7;
+  font-family: 'Bicyclette Light';
+  font-weight: 400;
+  margin: 3px 0 10px 0;
+  width: 27%;
+}
+/**skills headline is sectionHeaderPu**/
+
+.sectionHeaderPu{
+  font-size: 1.3em;
+  text-transform: uppercase;
+  background-color: #fffff;
+  color: #3B270B;
+  font-family: 'Bicyclette Regular';
+  font-weight: 200;
+  margin: 30px 0 10px 0;
+  width: 10%;
+  min-width: 200px;
+
+}
+/**skills text is putext**/
+.putext {
+  font-size: 0.9em;
+  background-color: #822C1E;
+  color: #FFFAF7;
+  font-family: 'Bicyclette Light';
+  font-weight: 400;
+  margin: 3px 0 10px 0;
+  width: 25%;
 }
 
 
-.organization {
- font-size: 1.25em;
- font-weight: 400;
 
-}
-
-
-.date {
- font-size: 1em;
- font-weight: 400;
- font-style: italic;
- margin: 2px 0 0 0;
-
-}
 .description {
  margin: 10 0 10 0;
 }
@@ -87,4 +133,14 @@ BODY {
 }
 .degrees {
  margin-top: 5px;
+}
+
+
+footer{
+  border-top:3px solid;
+  border-color: black;
+  margin-top: 15px;
+text-align: center;
+width: 70%;
+min-width: 300px;
 }

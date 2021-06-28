@@ -7,17 +7,43 @@
 
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 </head>
 
 <body>
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#name">Julia Joseph<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#sectionHeaderEd">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#sectionHeaderAw">Awards</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#sectionHeaderPu">Skills</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  <!-- End NavBar -->
 
   <div class="container">
 
-    <div class="name"> Julia Joseph</div>
-
-    <!--  <img src="headshotresume.jpg" width="300px">-->
-    <!--  delete headshot>-->
+    <div class="name">Julia Joseph</div>
+<!-- .center in css is image -->
+    <img src="headshotresume.jpg" alt="headshot" class="center">
 
     <ul class="menu">
       <!--  seperate menu from one below-->
@@ -30,59 +56,22 @@
     </ul>
 
     <div class="title"> Journalism student</div>
-    <div class="sectionHeader"> Experience</div>
-    <div class="jobTitle"> Sideline Reporter</div>
-    <div class="organization"> Wareham Gatemen,Cape Cod Baseball League</div>
+    <div class="sectionHeaderEd"> Education</div>
+    <div class="edtext"> University of Maryland <br>B.A., Journalism,<br>Law and Society Minor.<br> <br>Natick High School<br> High School Diploma.</div>
 
 
-    <div class="date"> Summer 2021</div>
 
+    <div class="sectionHeaderAw">Awards</div>
+    <div class="awtext">The John McNamara '83 Sports Journalism Scholarship<br>The Jonathan Ledecky Sports Journalism Scholarship,<br>Gridiron Foundation Journalism Scholarship<br>Phillip Merrill College of Journalism Presidential Scholarship<br>National Honor Society</div>
 
-    <p class="description"> Sideline reporting coverage for all Summer 2021 home games for the Wareham Gatemen baseball team. I interview the players,coaches, and managers throughout the game and have postgame interviews as well.</p>
     <!-- adjust all P classes not just this onse-->
 
-    <div class="jobTitle"> Camera Reporter</div>
-    <div class="organization"> Big Ten Network</div>
-    <div class="date"> Winter 2021 - Present</div>
-
-    <p class="description">Operate the broadcast cameras for all sports covered by the Big Ten Network at the University of Maryland. I help with set up, operation, and post game takedown of all cameras and equipment.</p>
-
-    <div class="jobTitle"> Co-Director of Video</div>
-    <div class="organization"> Uncut College Park</div>
-    <div class="date"> Fall 2020 - Present</div>
-
-    <p class="description">Co-Director of video for a student run non-profit that tells student-athlete’s stories. Compose podcast and video content, along with reaching out to athletes and coaches to schedule interviews.</p>
-
-
-    <div class="jobTitle"> Broadcaster</div>
-    <div class="organization"> Left Bench Television</div>
-    <div class="date"> Fall 2019- Present</div>
-
-
-    <p class="description">Sideline and package reporter for the student run sports news organization. Has also anchored the bi-weekly news show.</p>
-
-    <div class="sectionHeader"> Education</div>
-
-    <ul class="degrees">
-
-      <li>B.A., Journalism, Law and Society minor University of Maryland, December 2021</li>
-
-      <li>High School Diploma, Natick High School, June 2018</li>
-
-    </ul>
-
-    <div class="sectionHeader"> Skills</div>
-
-    <ul class="do">
-
-      <li>Broadcast camera operation</li>
-      <li>Video and audio editing in Adobe Premiere Pro</li>
-      <li>Audio editing in Adobe Audition</li>
-
-    </ul>
+    <div class="sectionHeaderPu">Skills</div>
+    <div class="putext"> Award <br>Award,<br>Award<br>Award<br> Award</div>
 
   </div>
 
 </body>
-
+<footer>
+  <p id="footer"> This is an example page done by Julia Joseph</p></footer>
 </html>
