@@ -1,0 +1,126 @@
+BODY {
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #444;
+  font-weight: 400;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 800px 800px;
+}
+
+.name {
+  color: #3B270B;
+  border-bottom: solid 1.5px;
+  border-color: #33485e;
+  width: 100%;
+  min-width: 300px;
+  margin: 0 auto;
+  font-family: 'Bicyclette Light';
+  font-size: 3em;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.title {
+  color: #3B270B;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-family: 'Bicyclette Regular';
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.menu {
+  font-size: 1em;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.sectionHeaderLeft {
+  grid-column: 1/2;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  background-color: #fffff;
+  color: #3B270B;
+  font-family: 'Bicyclette Regular';
+  font-weight: 200;
+  margin: 30px 0 10px 0;
+  width: 10%;
+  min-width: 200px;
+}
+
+.lefttext {
+  grid-column: 1/2;
+  font-size: 0.9em;
+  background-color: #822C1E;
+  color: #FFFAF7;
+  font-family: 'Bicyclette Light';
+  font-weight: 400;
+  margin: 3px 0 10px 0;
+  width: 25%;
+}
+
+.sectionHeaderRight {
+  grid-row: 2/3;
+  grid-column: 2/2;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  background-color: #fffff;
+  color: #3B270B;
+  font-family: 'Bicyclette Regular';
+  font-weight: 200;
+  margin: 30px 0 10px 0;
+  width: 10%;
+  min-width: 200px;
+}
+
+/**skills text is putext**/
+.righttext {
+  grid-row: 3/3;
+  grid-column: 2/3;
+  font-size: 0.9em;
+  background-color: #822C1E;
+  color: #FFFAF7;
+  font-family: 'Bicyclette Light';
+  font-weight: 400;
+  margin: 3px 0 10px 0;
+  width: 25%;
+}
+
+.description {
+  margin: 10 0 10 0;
+}
+
+.degrees {
+  margin-top: 5px;
+}
+
+.degrees {
+  margin-top: 5px;
+}
+
+footer {
+  width: 100%;
+  min-width: 300px;
+  border-top: 1.5px solid;
+  border-color: black;
+  margin-top: 15px;
+  text-align: center;
+}
