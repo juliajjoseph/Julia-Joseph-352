@@ -23,13 +23,10 @@
             <h1 id="headline">Headline Goes Here </h1>
             <p id="byline"> By: Name</p>
             <h1 class="chapterhead">Chapter Title </h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper auctor neque vitae tempus. Odio ut sem nulla pharetra diam sit amet nisl. Tincidunt vitae semper quis lectus
-                nulla at volutpat diam ut. Morbi tempus iaculis urna id volutpat lacus laoreet non curabitur. Nisi lacus sed viverra tellus in hac habitasse platea. Nec feugiat in fermentum posuere urna nec tincidunt praesent semper. Id interdum velit
-                laoreet id donec ultrices tincidunt arcu. Purus semper eget duis at. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Sagittis nisl rhoncus mattis
-                rhoncus. Molestie a iaculis at erat pellentesque adipiscing commodo elit at.</p>
+            <p>Lorem ipsum</p>
 
-            <img src="baby_max.jpg" alt="god" class="photo">
-            <h4 id="photoCaption">This is a caption for a photo </h4>
+           <iframe title="Residents of Prince George's county with at least one dose of the COVID-19 vaccine distributed by race." aria-label="chart" id="datawrapper-chart-HXo0H" src="https://datawrapper.dwcdn.net/HXo0H/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="618"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
 
 
             <h1 class="chapterhead">Chapter Title </h1>
