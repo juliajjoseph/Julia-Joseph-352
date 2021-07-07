@@ -1,0 +1,81 @@
+#headline {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #3d2b1f;
+}
+
+#byline {
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 80px;
+  color: #9f8170;
+}
+
+.chapterhead {
+  font-size: 2em;
+  font-weight: 500;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  color: #3d2b1f;
+}
+
+.quotes{
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: left;
+  font-family: 'Georgia', serif;
+  color: #c09999;
+
+
+}
+
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+#photoCaption {
+  font-size: 1em;
+  font-weight: 50;
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #9f8170;
+}
+
+p {
+  font-family: Georgia, serif;
+  line-height: 130%;
+  font: 1em;
+  color: #3d2b1f;
+
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+  color: #3d2b1f;
+}
+
+ul {
+  background-color: #c09999;
+}
+
+ul:hover {
+  background-color: #red;
+text-decoration: underline;
+}
+
+ul:visited {
+  background-color: #red;
+
+}
